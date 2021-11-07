@@ -1,0 +1,39 @@
+body    {
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    background-color: salmon;
+    
+}
+
+.header  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #eee;
+    padding:0 100px;
+}
+
+.banner {
+    flex:1;
+    background-color: aqua;
+}
+
+.content    {
+    flex: 1;
+    background-color: red;
+}
+
+
+a   {
+    text-decoration: none;
+    color: #eee;
+}
+
+.footer  {
+    text-align: center;
+    background-color: #1f2937;
+    color: #eee;
+    padding: 32px;
+}
