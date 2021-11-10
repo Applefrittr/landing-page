@@ -2,8 +2,7 @@ body    {
     min-height: 100vh;
     display:flex;
     flex-direction: column;
-    background-color: salmon;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'open sans',arial,sans-serif;
     font-weight: 800;
     
 }
@@ -14,7 +13,12 @@ body    {
     align-items: center;
     background-color: #1f2937;
     color: #eee;
-    padding:0 100px;
+    padding:10px 100px;
+}
+
+.header img     {
+    width: 75px;
+    height: auto;
 }
 
 .banner {
@@ -27,6 +31,10 @@ body    {
     gap: 64px;
     color: #e5e7eb;
     font-weight: normal;
+}
+
+.banner h1  {
+    font-size: 48px;
 }
 
 .banner img {
@@ -50,24 +58,24 @@ body    {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
-
 }
 
 .options    {
     display: flex;
     justify-content: center;
-    gap: 64px;
+    gap: 16px;
+    margin: 0;
 }
 
 .options .item  {
-    width: 200px;
-    font-size: 18px;
+    width: 175px;
+    font-size: 12px;
     font-weight: normal;
 }
 
 .item img   {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     border: solid #3882f6;
     border-radius: 10px;
 }
@@ -86,21 +94,51 @@ body    {
 .quote-container p    {
     font-size: 36px;
     font-style: italic;
-    font-weight: normal;
+    font-weight: 100;
     color: #1f2937;
-    padding: 0 100px;
-       
+    margin-bottom: 0;      
 }
+
 .quote-container .person  {
     font-size: 18px;
     font-style: normal;
     font-weight: 900;
     text-align: right;
+    margin-top: 0;
 }
 .sign-up    {
     flex:1;
-    background-color: peru;
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+.sign-up .container     {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 1100px;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 32px;
+    color: white;
+}
+.sign-up .container p   {
+    font-size: 12px;
+}
+
+.sign-up .container button  {
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: solid white;
+    font-weight: 800;
+    background-color: #3882f6;
+    color: white;
+}
+
 a   {
     text-decoration: none;
     color: #eee;
